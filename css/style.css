@@ -217,3 +217,38 @@ footer a {
   color: white;
   opacity: 0.7;
 }
+
+@media (max-width: 960px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
+  }
+}
