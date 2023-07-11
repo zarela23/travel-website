@@ -131,6 +131,12 @@ header a {
   background: white;
 }
 
+header a:hover {
+  transform: scale(1.1) !important;
+  border-radius: 2px !important;
+  border: none;
+}
+
 main {
   background-color: white;
 }
