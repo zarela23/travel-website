@@ -70,7 +70,7 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #019aa2;
+  background-color: #295e6e;
   text-decoration: none;
 }
 
@@ -225,8 +225,14 @@ footer li {
 }
 
 footer a {
+  text-decoration: none;
   color: white;
   opacity: 0.8;
+}
+
+footer a:hover {
+  color: white;
+  opacity: 1;
 }
 
 footer li:hover {
