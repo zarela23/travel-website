@@ -74,6 +74,11 @@ body {
   text-decoration: none;
 }
 
+.btn:hover {
+  color: #019aa2;
+  background-color: #f8f8f8;
+}
+
 section {
   max-width: 100%;
   margin: 0 auto;
@@ -188,8 +193,8 @@ main p {
 footer {
   color: white;
   background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
+      rgba(39, 32, 68, 0.7),
+      rgba(39, 32, 68, 0.7)
     ),
     url("../images/cerros.png");
   background-repeat: no-repeat;
@@ -221,7 +226,11 @@ footer li {
 
 footer a {
   color: white;
-  opacity: 0.7;
+  opacity: 0.8;
+}
+
+footer li:hover {
+  transform: scale(1.1) !important;
 }
 
 @media (max-width: 960px) {
